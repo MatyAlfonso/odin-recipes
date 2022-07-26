@@ -1,0 +1,68 @@
+/* Global */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgba(0,0,0,0.9);
+    color: #fff;
+}
+
+a{
+    color: rgba(197, 116, 116, 0.9);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* Index page */
+#title{
+    text-align: center;
+    margin: 20px;
+}
+
+#recipes-list{
+    text-align: center;
+    list-style: none;
+}
+
+.recipe{
+    margin: 5px;
+}
+
+/* Recipes pages */
+
+.recipe-title{
+    text-align: center;
+    margin: 20px;
+}
+
+.img{
+    display: block;
+    margin: 10px auto ;
+}
+
+.description,
+.p-description,
+.ingredients,
+.ingredients-list,
+.steps,
+.step-list{
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.ingredients-list{
+    list-style: none;  
+}
+
+.description,
+.steps,
+.ingredients{
+    color:rgba(197, 116, 116, 0.9);
+}
+
